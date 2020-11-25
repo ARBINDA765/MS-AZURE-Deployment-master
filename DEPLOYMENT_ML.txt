@@ -1,0 +1,37 @@
+DEPLOYMENT OF ML OVER AWS  ON THE OS OF ubuntu
+-------------------------------------------------------------------------------------------------------------
+sudo apt-get update && sudo apt-get install python3-pip
+#Install all the library for the model
+
+pip3 install -r requirements.txt
+----------------------------------------------------------------------------------------------------------------------
+#Steps to be deployment for the AWS instance 
+1-Flask code
+2-Run & check in Local
+3-CREATE A AWS  Account
+4-create a E2 instance
+5-Download putty & putty gen
+6-Generate private key with putty gen
+7-Download winscp
+8-update the port  in the Flask
+9-install the library by  connecting through the putty
+10-python3 app.python3
+11-Web URL & EC2 instance
+12-
+-----------------------------------------------------------------------
+ML DEPLOYMENT  OVER GOOGLE CLOUD
+--------------------------------------------------------------------------------------------------------------------------------------------
+1-Crete a GOOGLE CLOUD ACCOUNT by the help of gmail account.
+2-Activate the GCP by the credit card of 1 ruppess ,it will not further dedicate untill u have upgraded to paid version
+3-Create a new project inside it
+4-Download the SDK  CLOUD FROM  "https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe"
+After the download u have to deploy the code over GCP ,Hence we have to push the file from Local to gcloud  via SDK cloud..
+Below are the commands(cd where the files are present  over the local sytem then fire the below commands
+#Creating a app engine
+
+gcloud init
+gcloud app deploy app.yaml --project aqi-of-jaipur
+5-ML will deploy sucessfully .
+6-Copy the URL & check
+7-Make sure that u supposed to disable the application & delete the project otherwise it will charge.
+
